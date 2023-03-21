@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(221, 251, 219);
+}
+
+.head1 {
+  height: 130px;
+  background-color: aqua;
+  background-image: url(/R.jpg);
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.navlink-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-text {
+  text-decoration: none;
+}
+
+.navlink1 {
+  cursor: pointer;
+  opacity: 0.6;
+  margin: 5px;
+  padding: 5px;
+  width: 100px;
+  background-color: white;
+}
+
+.navlink1:active,
+.navlink1:focus {
+  opacity: 1;
+}
+
+.navlink2 {
+  cursor: pointer;
+  opacity: 0.6;
+  margin: 5px;
+  padding: 5px;
+  width: 100px;
+  background-color: white;
+}
+
+.navlink2:active,
+.navlink2:focus {
+  opacity: 1;
+}
+
+.navlink3 {
+  cursor: pointer;
+  opacity: 0.6;
+  margin: 5px;
+  padding: 5px;
+  width: 100px;
+  background-color: white;
+}
+
+.navlink3:active,
+.navlink3:focus {
+  opacity: 1;
+}
+
+.nav-title {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blanchedalmond;
+}
+
+.navlink4 {
+  cursor: pointer;
+  opacity: 0.6;
+  margin: 5px;
+  padding: 5px;
+  width: 100px;
+  background-color: white;
+}
+
+.navlink4:active,
+.navlink4:focus {
+  opacity: 1;
+}
+
+.img-side {
+  margin: 25px 5px;
+  display: block;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.home-main2 {
+  display: flex;
+}
+.aside {
+  padding: 10px;
+  display: block;
+  align-items: center;
+  background-color: rgb(54, 220, 70);
+  width: 33%;
+  max-width: 220px;
+  min-width: 220px;
+  height: 400px;
+}
+
+.teams2 {
+  color: rgb(132, 0, 255);
+  padding: 10px;
+}
+
+.home2 {
+  color: rgb(0, 156, 16);
+  padding: 10px;
+}
+
+.history2 {
+  color: rgb(253, 0, 0);
+  padding: 10px;
+}
+
+.usa2 {
+  color: rgb(0, 17, 255);
+  padding: 10px;
+}
